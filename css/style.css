@@ -205,8 +205,7 @@ h6,
 
 /*** Hero Header ***/
 .hero-header {
-  margin-bottom: 6rem;
-  padding: 18rem 0;
+  padding: 10rem 0;
   background: url(../img/blob-top-left.png), url(../img/blob-top-right.png),
     url(../img/blob-bottom-left.png), url(../img/blob-bottom-right.png),
     url(../img/blob-center.png), url(../img/bg-bottom.png);
@@ -301,7 +300,6 @@ h6,
 
 /*** Fact ***/
 .fact {
-  margin: 6rem 0;
   background: url(../img/blob-top-left.png), url(../img/blob-top-right.png),
     url(../img/blob-bottom-left.png), url(../img/blob-bottom-right.png),
     url(../img/blob-center.png);
@@ -473,7 +471,6 @@ h6,
 
 /*** Footer ***/
 .footer {
-  margin-top: 6rem;
   padding-top: 9rem;
   background: url(../img/bg-top.png), url(../img/map.png);
   background-position: center top, center center;
