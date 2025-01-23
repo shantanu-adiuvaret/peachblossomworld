@@ -3,10 +3,29 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Peach Blossom</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <meta content="" name="keywords" />
-  <meta content="" name="description" />
+  <title>Peach Blossom World | Premier Preschool in Navi Mumbai</title>
+  <meta name="description"
+    content="Peach Blossom World is a leading preschool in Navi Mumbai, offering a nurturing and creative environment for early childhood education. Enroll your child today!" />
+  <meta name="keywords"
+    content="preschool in Navi Mumbai, early childhood education, daycare in Kharghar, Peach Blossom World, kids learning center, child care Navi Mumbai" />
+  <meta name="author" content="Peach Blossom World" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Peach Blossom World | Premier Preschool in Navi Mumbai" />
+  <meta property="og:description"
+    content="Peach Blossom World is a leading preschool in Navi Mumbai, offering a nurturing and creative environment for early childhood education. Enroll your child today!" />
+  <meta property="og:image" content="img/social-share-image.jpg" />
+  <meta property="og:url" content="https://www.peachblossomworld.com/" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Peach Blossom World | Premier Preschool in Navi Mumbai" />
+  <meta name="twitter:description"
+    content="Peach Blossom World is a leading preschool in Navi Mumbai, offering a nurturing and creative environment for early childhood education. Enroll your child today!" />
+  <meta name="twitter:image" content="img/social-share-image.jpg" />
 
   <!-- Favicon -->
   <link href="img/favicon.ico" rel="icon" />
@@ -31,6 +50,30 @@
 
   <!-- Template Stylesheet -->
   <link href="css/style.css" rel="stylesheet" />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Preschool",
+    "name": "Peach Blossom World",
+    "description": "Peach Blossom World is a leading preschool in Navi Mumbai, offering a nurturing and creative environment for early childhood education.",
+    "url": "https://www.peachblossomworld.com/",
+    "telephone": ["+91-9136249499", "+91-8976079199"],
+    "email": "peachblossomworld@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "C 83, Sector 12, Kharghar",
+      "addressLocality": "Navi Mumbai",
+      "addressRegion": "Maharashtra",
+      "postalCode": "410210",
+      "addressCountry": "India"
+    },
+    "logo": "img/logo.png",
+    "image": "img/social-share-image.jpg",
+    "sameAs": []
+  }
+  </script>
 </head>
 
 <body>
@@ -46,75 +89,76 @@
 
     <!-- Navbar & Hero Start -->
     <div class="container-xxl position-relative p-0">
-      <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-        <a href="./index.html" class="navbar-brand p-0">
-          <!-- <h1 class="m-0"></h1> -->
-          <img src="img/logo.png" alt="Logo" />
+      <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0" aria-label="Main Navigation">
+        <a href="./index.html" class="navbar-brand p-0" aria-label="Peach Blossom World Home">
+          <img src="img/logo.png" alt="Peach Blossom World Logo" />
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="fa fa-bars"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav mx-auto py-0">
-            <a href="index.html" class="nav-item nav-link active">Home</a>
-            <a href="about.html" class="nav-item nav-link">About</a>
+            <a href="index.html" class="nav-item nav-link active" aria-label="Home Page">Home</a>
+            <a href="about.html" class="nav-item nav-link" aria-label="About Us">About</a>
 
             <div class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Academics</a>
+              <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Academics</a>
               <div class="dropdown-menu m-0">
                 <a href="./our-curriculum.html" class="dropdown-item">Our Curriculum</a>
                 <a href="./our-syllabus.html" class="dropdown-item">Syllabus</a>
                 <a href="./pedagogy.html" class="dropdown-item">Pedagogy</a>
-                <a href="./activity-based-learning.html" class="dropdown-item">ABL (Activity-Based Learning)
-                  <a href="./activity-based-curriculum.html" class="dropdown-item">ACT (Activity based Curriculum for
-                    Tacit knowledge)
-                  </a>
+                <a href="./activity-based-learning.html" class="dropdown-item">ABL (Activity-Based Learning)</a>
+                <a href="./activity-based-curriculum.html" class="dropdown-item">ACT (Activity-Based Curriculum for
+                  Tacit Knowledge)</a>
               </div>
             </div>
 
             <div class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+              <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Services</a>
               <div class="dropdown-menu m-0">
-                <a href="./preschool-programs.html" class="dropdown-item">Preschool Programs
-                </a>
+                <a href="./preschool-programs.html" class="dropdown-item">Preschool Programs</a>
                 <a href="./nursery-teacher-training.html" class="dropdown-item">NTT Program</a>
                 <a href="./day-care.html" class="dropdown-item">Day Care</a>
                 <a href="./tuitions.html" class="dropdown-item">Tuitions</a>
-                <a href="./ecce.courses.html" class="dropdown-item">ECCE courses</a>
-                <a href="./get-franchise.html" class="dropdown-item">Get Franchise
-                </a>
+                <a href="./ecce.courses.html" class="dropdown-item">ECCE Courses</a>
+                <a href="./get-franchise.html" class="dropdown-item">Get Franchise</a>
               </div>
             </div>
 
-            <a href="contact.html" class="nav-item nav-link">Contact</a>
+            <a href="contact.html" class="nav-item nav-link" aria-label="Contact Page">Contact</a>
           </div>
-          <a href="" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Get Started</a>
+          <a href="./enroll.html" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block" aria-label="Get Started">Get
+            Started</a>
         </div>
       </nav>
 
+      <!-- Hero Section -->
       <div class="container-xxl bg-primary hero-header">
         <div class="container px-lg-5">
           <div class="row g-5 align-items-end">
             <!-- Hero Text Section -->
             <div class="col-lg-6 text-center text-lg-start">
-              <h1 style="color: blue;" class=" mb-4 animated slideInDown">
-                Unlock Your Child's Potential with Peach Blossom World
+              <h1 class="mb-4 animated slideInDown" style="color: blue;" aria-label="Main Heading">
+                Unlock Your Child's Potential with Peach Blossom World
               </h1>
-              <p class="text-white pb-3 animated slideInDown">
-                At Peach Blossom World, we nurture young minds through
-                engaging learning experiences, a safe environment, and a
-                curriculum designed for early childhood development. Let your
-                child grow, learn, and blossom with us.
+              <p class="text-white pb-3 animated slideInDown" aria-label="Description">
+                At Peach Blossom World, we nurture young minds through engaging learning experiences, a safe
+                environment, and a curriculum designed for early childhood development. Let your child grow, learn, and
+                blossom with us.
               </p>
-              <a href="./about.html"
-                class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Learn More</a>
-              <a href="tel:+919537019038" class="btn btn-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Get
-                in Touch</a>
+              <a href="./about.html" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft"
+                aria-label="Learn More About Us">Learn More</a>
+              <a href="tel:+919136249499" class="btn btn-light py-sm-3 px-sm-5 rounded-pill animated slideInRight"
+                aria-label="Call Peach Blossom World">Get in Touch</a>
             </div>
+
             <!-- Hero Image Section -->
             <div class="col-lg-6 text-center text-lg-start">
               <img class="img-fluid animated zoomIn" src="img/hero.png"
-                alt="Peach Blossom World - Nurturing Young Minds" />
+                alt="Peach Blossom World - Nurturing Young Minds" />
             </div>
           </div>
         </div>
@@ -122,43 +166,44 @@
     </div>
     <!-- Navbar & Hero End -->
 
+
     <!-- Feature Start -->
     <div class="container-xxl">
       <div class="container py-5 px-lg-5">
         <div class="row g-4">
           <!-- Safe & Engaging Environment -->
           <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="feature-item bg-light rounded text-center p-4">
-              <i class="fa fa-3x fa-child text-primary mb-4"></i>
+            <div class="feature-item bg-light rounded text-center p-4"
+              aria-label="Feature: Safe & Engaging Environment">
+              <i class="fa fa-3x fa-child text-primary mb-4" aria-hidden="true"></i>
               <h5 class="mb-3">Safe & Engaging Environment</h5>
               <p class="m-0">
-                Our preschool provides a secure and nurturing space where
-                children explore, learn, and grow through fun activities and
-                interactive play.
+                Our preschool provides a secure and nurturing space where children explore, learn, and grow through fun
+                activities and interactive play.
               </p>
             </div>
           </div>
+
           <!-- Holistic Curriculum -->
           <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="feature-item bg-light rounded text-center p-4">
-              <i class="fa fa-3x fa-book text-primary mb-4"></i>
+            <div class="feature-item bg-light rounded text-center p-4" aria-label="Feature: Holistic Curriculum">
+              <i class="fa fa-3x fa-book text-primary mb-4" aria-hidden="true"></i>
               <h5 class="mb-3">Holistic Curriculum</h5>
               <p class="m-0">
-                We focus on early childhood development through a curriculum
-                that blends academics, creativity, and life skills tailored to
-                Indian culture.
+                We focus on early childhood development through a curriculum that blends academics, creativity, and life
+                skills tailored to Indian culture.
               </p>
             </div>
           </div>
+
           <!-- Expert Teachers -->
           <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-            <div class="feature-item bg-light rounded text-center p-4">
-              <i class="fa fa-3x fa-chalkboard-teacher text-primary mb-4"></i>
+            <div class="feature-item bg-light rounded text-center p-4" aria-label="Feature: Experienced Teachers">
+              <i class="fa fa-3x fa-chalkboard-teacher text-primary mb-4" aria-hidden="true"></i>
               <h5 class="mb-3">Experienced Teachers</h5>
               <p class="m-0">
-                Our certified educators ensure that every child gets
-                personalized attention and a foundation for lifelong learning
-                and success.
+                Our certified educators ensure that every child gets personalized attention and a foundation for
+                lifelong learning and success.
               </p>
             </div>
           </div>
@@ -167,6 +212,7 @@
     </div>
     <!-- Feature End -->
 
+
     <!-- About Start -->
     <div class="container-xxl">
       <div class="container py-5 px-lg-5">
@@ -174,13 +220,13 @@
           <!-- About Text Section -->
           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
             <p class="section-title text-secondary">About Us<span></span></p>
-            <h1 class="mb-5">Welcome to Peach Blossom World</h1>
+            <h1 class="mb-5">Welcome to Peach Blossom World</h1>
             <p class="mb-4">
-              At Peach Blossom World, we are committed to nurturing young
-              minds through love, care, and quality early education. With a
-              unique blend of play-based learning and holistic development, we
-              prepare children to thrive academically, socially, and
-              emotionally in today's world.
+              At Peach Blossom World, we are dedicated to nurturing young minds with love, care, and quality early
+              education.
+              Through our unique blend of play-based learning and holistic development, we prepare children to excel
+              academically, socially,
+              and emotionally in a rapidly evolving world.
             </p>
 
             <!-- Unique Features -->
@@ -190,8 +236,8 @@
                 <p class="mb-2">100%</p>
               </div>
               <div class="progress">
-                <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0"
-                  aria-valuemax="100"></div>
+                <div class="progress-bar bg-primary" role="progressbar" aria-label="Safe & Secure Environment"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
             <div class="skill mb-4">
@@ -200,8 +246,8 @@
                 <p class="mb-2">100%</p>
               </div>
               <div class="progress">
-                <div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="100" aria-valuemin="0"
-                  aria-valuemax="100"></div>
+                <div class="progress-bar bg-secondary" role="progressbar" aria-label="Play-Based Learning"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
             <div class="skill mb-4">
@@ -210,54 +256,62 @@
                 <p class="mb-2">100%</p>
               </div>
               <div class="progress">
-                <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="100" aria-valuemin="0"
-                  aria-valuemax="100"></div>
+                <div class="progress-bar bg-dark" role="progressbar" aria-label="Holistic Child Development"
+                  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
-            <a href="./about.html" class="btn btn-primary py-sm-3 px-sm-5 rounded-pill mt-3">Learn More</a>
+            <a href="./about.html" class="btn btn-primary py-sm-3 px-sm-5 rounded-pill mt-3"
+              aria-label="Learn More About Peach Blossom World">Learn More</a>
           </div>
+
           <!-- About Image Section -->
           <div class="col-lg-6">
             <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/about.png"
-              alt="Peach Blossom World - Where Learning Begins" />
+              alt="Children learning and growing at Peach Blossom World" aria-label="About Peach Blossom World" />
           </div>
         </div>
       </div>
     </div>
     <!-- About End -->
 
+
     <!-- Facts Start -->
     <div class="container-xxl bg-primary fact wow fadeInUp" data-wow-delay="0.1s">
       <div class="container py-5 px-lg-5">
         <div class="row g-4">
+          <!-- Years of Quality Early Education -->
           <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
-            <i class="fa fa-certificate fa-3x text-secondary mb-3"></i>
-            <h1 class="text-white mb-2" data-toggle="counter-up">10</h1>
+            <i class="fa fa-certificate fa-3x text-secondary mb-3" aria-hidden="true"></i>
+            <h1 class="text-white mb-2" data-toggle="counter-up" aria-label="Years of Quality Early Education">10</h1>
             <p class="text-white mb-0">Years of Quality Early Education</p>
-            <!-- Improved keyword relevance -->
           </div>
+
+          <!-- Dedicated Educators & Staff -->
           <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
-            <i class="fa fa-users-cog fa-3x text-secondary mb-3"></i>
-            <h1 class="text-white mb-2" data-toggle="counter-up">15</h1>
+            <i class="fa fa-users-cog fa-3x text-secondary mb-3" aria-hidden="true"></i>
+            <h1 class="text-white mb-2" data-toggle="counter-up" aria-label="Dedicated Educators & Staff">15</h1>
             <p class="text-white mb-0">Dedicated Educators & Staff</p>
-            <!-- Focus on educators, which resonates with parents -->
           </div>
+
+          <!-- Happy and Engaged Students -->
           <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
-            <i class="fa fa-users fa-3x text-secondary mb-3"></i>
-            <h1 class="text-white mb-2" data-toggle="counter-up">1000</h1>
+            <i class="fa fa-users fa-3x text-secondary mb-3" aria-hidden="true"></i>
+            <h1 class="text-white mb-2" data-toggle="counter-up" aria-label="Happy and Engaged Students">1000</h1>
             <p class="text-white mb-0">Happy and Engaged Students</p>
-            <!-- Parents love to know kids are happy -->
           </div>
+
+          <!-- Successful Early Learning Programs -->
           <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
-            <i class="fa fa-check fa-3x text-secondary mb-3"></i>
-            <h1 class="text-white mb-2" data-toggle="counter-up">50</h1>
+            <i class="fa fa-check fa-3x text-secondary mb-3" aria-hidden="true"></i>
+            <h1 class="text-white mb-2" data-toggle="counter-up" aria-label="Successful Early Learning Programs">50</h1>
             <p class="text-white mb-0">Successful Early Learning Programs</p>
-            <!-- Focus on learning outcomes -->
           </div>
         </div>
       </div>
     </div>
     <!-- Facts End -->
+
+
     <!-- Founder's Message Start -->
     <div class="container-xxl">
       <div class="container py-5 px-lg-5">
@@ -265,7 +319,7 @@
           <!-- Founder's Image Section -->
           <div class="col-lg-6">
             <img class="img-fluid wow zoomIn rounded-3" data-wow-delay="0.5s" src="./img/founder.jpg"
-              alt="Founder of Peach Blossom World" />
+              alt="Purva Shukla, Founder of Peach Blossom World - Early Childhood Education" />
           </div>
           <!-- Founder's Text Section -->
           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -274,27 +328,24 @@
             </p>
             <h1 class="mb-5">A Warm Welcome from Our Founder</h1>
             <p class="mb-4">
-              Welcome to Peach Blossom World, where we believe in
-              nurturing young minds through love, care, and quality early
-              education. Our mission is to create a safe and stimulating
-              environment that fosters holistic development, preparing
-              children to thrive academically, socially, and emotionally.
+              Welcome to Peach Blossom World, where we believe in nurturing young minds through love, care, and quality
+              early education. Our mission is to create a safe and stimulating environment that fosters holistic
+              development, preparing children to thrive academically, socially, and emotionally.
             </p>
             <p class="mb-4">
-              We are committed to providing a curriculum that encourages
-              exploration, creativity, and a lifelong love for learning. Our
-              dedicated team of educators works tirelessly to ensure each
-              child receives personalized attention, guiding them through
-              these formative years with compassion and expertise.
+              We are committed to providing a curriculum that encourages exploration, creativity, and a lifelong love
+              for
+              learning. Our dedicated team of educators works tirelessly to ensure each child receives personalized
+              attention, guiding them through these formative years with compassion and expertise.
             </p>
             <p class="mb-4">
-              Thank you for entrusting us with your child's early education.
-              We look forward to partnering with you on this exciting journey.
+              Thank you for entrusting us with your child's early education. We look forward to partnering with you on
+              this
+              exciting journey.
             </p>
             <p class="mb-4"><strong>Warm regards,</strong></p>
             <p class="mb-4">
-              <strong>Purva Shukla</strong><br />Founder, Peach Blossom
-              Preschool
+              <strong>Purva Shukla</strong><br />Founder, Peach Blossom Preschool
             </p>
           </div>
         </div>
@@ -314,140 +365,153 @@
           </h1>
         </div>
         <div class="row g-4">
+          <!-- Preschool Programs -->
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="service-item d-flex flex-column text-center rounded">
               <div class="service-icon flex-shrink-0">
-                <i class="fa fa-chalkboard-teacher fa-2x"></i>
+                <i class="fa fa-chalkboard-teacher fa-2x" aria-hidden="true"></i>
               </div>
               <h5 class="mb-3">Preschool Programs</h5>
               <p class="m-0">
-                Our engaging Preschool Programs foster creativity, cognitive
-                development, and social skills in a fun and nurturing
-                environment for young children.
+                Our engaging Preschool Programs foster creativity, cognitive development, and social skills in a fun and
+                nurturing environment for young children.
               </p>
-              <a class="btn btn-square" href="./preschool-programs.html"><i class="fa fa-arrow-right"></i></a>
+              <a class="btn btn-square" href="./preschool-programs.html"
+                aria-label="Learn more about Preschool Programs"><i class="fa fa-arrow-right"></i></a>
             </div>
           </div>
+          <!-- Early Childhood Education -->
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="service-item d-flex flex-column text-center rounded">
               <div class="service-icon flex-shrink-0">
-                <i class="fa fa-brain fa-2x"></i>
+                <i class="fa fa-brain fa-2x" aria-hidden="true"></i>
               </div>
               <h5 class="mb-3">Early Childhood Education</h5>
               <p class="m-0">
-                Our early childhood education programs provide a strong
-                foundation for learning through interactive play and
-                exploration in subjects like math, language, and arts.
+                Our early childhood education programs provide a strong foundation for learning through interactive play
+                and exploration in subjects like math, language, and arts.
               </p>
-              <a class="btn btn-square" href="./ecce.courses.html"><i class="fa fa-arrow-right"></i></a>
+              <a class="btn btn-square" href="./ecce.courses.html"
+                aria-label="Learn more about Early Childhood Education"><i class="fa fa-arrow-right"></i></a>
             </div>
           </div>
+          <!-- Social Development Activities -->
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
             <div class="service-item d-flex flex-column text-center rounded">
               <div class="service-icon flex-shrink-0">
-                <i class="fa fa-users fa-2x"></i>
+                <i class="fa fa-users fa-2x" aria-hidden="true"></i>
               </div>
               <h5 class="mb-3">Social Development Activities</h5>
               <p class="m-0">
-                We emphasize the development of strong social skills through
-                group activities and collaborative learning, helping children
-                build friendships and work in teams.
+                We emphasize the development of strong social skills through group activities and collaborative
+                learning, helping children build friendships and work in teams.
               </p>
-              <a class="btn btn-square" href="./day-care.html"><i class="fa fa-arrow-right"></i></a>
+              <a class="btn btn-square" href="./day-care.html"
+                aria-label="Learn more about Social Development Activities"><i class="fa fa-arrow-right"></i></a>
             </div>
           </div>
+          <!-- Kids Pool -->
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="service-item d-flex flex-column text-center rounded">
               <div class="service-icon flex-shrink-0">
-                <i class="fa fa-water fa-2x"></i>
+                <i class="fa fa-water fa-2x" aria-hidden="true"></i>
               </div>
               <h5 class="mb-3">Kids Pool</h5>
               <p class="m-0">
-                Our kids pool activities promote physical fitness, water
-                safety, and fun through guided swimming sessions tailored for
-                young learners.
+                Our kids pool activities promote physical fitness, water safety, and fun through guided swimming
+                sessions tailored for young learners.
               </p>
-              <a class="btn btn-square" href="./our-syllabus.html"><i class="fa fa-arrow-right"></i></a>
+              <a class="btn btn-square" href="./our-syllabus.html" aria-label="Learn more about Kids Pool Activities"><i
+                  class="fa fa-arrow-right"></i></a>
             </div>
           </div>
+          <!-- Aerial Yoga -->
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="service-item d-flex flex-column text-center rounded">
               <div class="service-icon flex-shrink-0">
-                <i class="fa fa-dumbbell fa-2x"></i>
+                <i class="fa fa-dumbbell fa-2x" aria-hidden="true"></i>
               </div>
               <h5 class="mb-3">Aerial Yoga</h5>
               <p class="m-0">
-                Aerial yoga sessions designed for kids to improve flexibility,
-                strength, and focus while having fun with aerial movements.
+                Aerial yoga sessions designed for kids to improve flexibility, strength, and focus while having fun with
+                aerial movements.
               </p>
-              <a class="btn btn-square" href="./our-syllabus.html"><i class="fa fa-arrow-right"></i></a>
+              <a class="btn btn-square" href="./our-syllabus.html" aria-label="Learn more about Aerial Yoga"><i
+                  class="fa fa-arrow-right"></i></a>
             </div>
           </div>
+          <!-- Dance -->
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
             <div class="service-item d-flex flex-column text-center rounded">
               <div class="service-icon flex-shrink-0">
-                <i class="fa fa-music fa-2x"></i>
+                <i class="fa fa-music fa-2x" aria-hidden="true"></i>
               </div>
               <h5 class="mb-3">Dance</h5>
               <p class="m-0">
-                Dance classes that inspire creativity and confidence through
-                fun and energetic routines.
+                Dance classes that inspire creativity and confidence through fun and energetic routines.
               </p>
-              <a class="btn btn-square" href="./our-syllabus.html"><i class="fa fa-arrow-right"></i></a>
+              <a class="btn btn-square" href="./our-syllabus.html" aria-label="Learn more about Dance classes"><i
+                  class="fa fa-arrow-right"></i></a>
             </div>
           </div>
+          <!-- Karate -->
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="service-item d-flex flex-column text-center rounded">
               <div class="service-icon flex-shrink-0">
-                <i class="fa fa-fist-raised fa-2x"></i>
+                <i class="fa fa-fist-raised fa-2x" aria-hidden="true"></i>
               </div>
               <h5 class="mb-3">Karate</h5>
               <p class="m-0">
-                Karate lessons focus on discipline, self-defense, and physical
-                fitness, helping kids build confidence and strength.
+                Karate lessons focus on discipline, self-defense, and physical fitness, helping kids build confidence
+                and strength.
               </p>
-              <a class="btn btn-square" href="./our-syllabus.html"><i class="fa fa-arrow-right"></i></a>
+              <a class="btn btn-square" href="./our-syllabus.html" aria-label="Learn more about Karate lessons"><i
+                  class="fa fa-arrow-right"></i></a>
             </div>
           </div>
+          <!-- Tuitions Till Class 8 -->
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="service-item d-flex flex-column text-center rounded">
               <div class="service-icon flex-shrink-0">
-                <i class="fa fa-chalkboard fa-2x"></i>
+                <i class="fa fa-chalkboard fa-2x" aria-hidden="true"></i>
               </div>
               <h5 class="mb-3">Tuitions Till Class 8</h5>
               <p class="m-0">
-                Comprehensive tuition classes for students up to class 8,
-                covering all major subjects with personalized attention.
+                Comprehensive tuition classes for students up to class 8, covering all major subjects with personalized
+                attention.
               </p>
-              <a class="btn btn-square" href="./tuitions.html"><i class="fa fa-arrow-right"></i></a>
+              <a class="btn btn-square" href="./tuitions.html" aria-label="Learn more about Tuition classes"><i
+                  class="fa fa-arrow-right"></i></a>
             </div>
           </div>
+          <!-- ECCE Course -->
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
             <div class="service-item d-flex flex-column text-center rounded">
               <div class="service-icon flex-shrink-0">
-                <i class="fa fa-certificate fa-2x"></i>
+                <i class="fa fa-certificate fa-2x" aria-hidden="true"></i>
               </div>
               <h5 class="mb-3">ECCE Course</h5>
               <p class="m-0">
-                Early Childhood Care and Education (ECCE) courses for aspiring
-                educators, focusing on child development and teaching
-                methodologies.
+                Early Childhood Care and Education (ECCE) courses for aspiring educators, focusing on child development
+                and teaching methodologies.
               </p>
-              <a class="btn btn-square" href="./ecce.courses.html"><i class="fa fa-arrow-right"></i></a>
+              <a class="btn btn-square" href="./ecce.courses.html" aria-label="Learn more about ECCE Course"><i
+                  class="fa fa-arrow-right"></i></a>
             </div>
           </div>
+          <!-- School Franchise -->
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
             <div class="service-item d-flex flex-column text-center rounded">
               <div class="service-icon flex-shrink-0">
-                <i class="fa fa-school fa-2x"></i>
+                <i class="fa fa-school fa-2x" aria-hidden="true"></i>
               </div>
               <h5 class="mb-3">School Franchise</h5>
               <p class="m-0">
-                Become a part of our growing network by owning a Peach Blossom
-                preschool franchise, providing quality education in your
-                community.
+                Become a part of our growing network by owning a Peach Blossom preschool franchise, providing quality
+                education in your community.
               </p>
-              <a class="btn btn-square" href="./get-franchise.html"><i class="fa fa-arrow-right"></i></a>
+              <a class="btn btn-square" href="./get-franchise.html" aria-label="Learn more about School Franchise"><i
+                  class="fa fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
