@@ -544,3 +544,13 @@ h6,
 .footer .footer-menu a:hover {
   color: var(--secondary);
 }
+
+
+
+.transition-card {
+  transition: transform 300ms ease, box-shadow 300ms ease;
+}
+.transition-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
