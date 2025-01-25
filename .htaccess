@@ -13,3 +13,7 @@ RewriteRule ^(.*)$ $1.html [L]
 # Optional: Redirect old .html URLs to clean URLs
 RewriteCond %{THE_REQUEST} /(.+)\.html [NC]
 RewriteRule ^ %1 [R=301,L]
+
+# Redirect index to home page to avoid showing 'index' in the URL
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index$ [NC]
+RewriteRule ^index$ / [R=301,L]
