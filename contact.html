@@ -178,29 +178,30 @@
                 <div class="row g-3">
                   <div class="col-md-6">
                     <div class="form-floating">
-                      <input type="text" class="form-control" id="name" placeholder="Your Name" />
+                      <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required />
                       <label for="name">Your Name</label>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="form-floating">
-                      <input type="email" class="form-control" id="email" placeholder="Your Email" />
+                      <input type="email" class="form-control" id="email" name="email" placeholder="Your Email"
+                        required />
                       <label for="email">Your Email</label>
                     </div>
                   </div>
                   <div class="col-12">
                     <div class="form-floating">
-                      <input type="text" class="form-control" id="subject" placeholder="Subject" />
+                      <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject"
+                        required />
                       <label for="subject">Subject</label>
                     </div>
                   </div>
                   <div class="col-12">
                     <div class="form-floating">
-                      <select class="form-select" id="enquiryType" aria-label="Enquiry Type">
-                        <option selected>Select Enquiry Type</option>
-                        <option value="preschool_admission">
-                          Preschool Admission
-                        </option>
+                      <select class="form-select" id="enquiryType" name="enquiryType" aria-label="Enquiry Type"
+                        required>
+                        <option value="" selected disabled>Select Enquiry Type</option>
+                        <option value="preschool_admission">Preschool Admission</option>
                         <option value="ntt_program">NTT Program</option>
                         <option value="tuitions">Tuitions</option>
                         <option value="ecce_courses">ECCE Courses</option>
@@ -212,8 +213,8 @@
                   <!-- Appointment Date Field -->
                   <div class="col-md-6">
                     <div class="form-floating">
-                      <input type="date" class="form-control" id="appointmentDate" placeholder="Appointment Date"
-                        value="<?php echo date('Y-m-d'); ?>" />
+                      <input type="date" class="form-control" id="appointmentDate" name="appointmentDate"
+                        placeholder="Appointment Date" value="<?php echo date('Y-m-d'); ?>" required />
                       <label for="appointmentDate">Appointment Date</label>
                     </div>
                   </div>
@@ -221,19 +222,18 @@
                   <!-- Appointment Time Field -->
                   <div class="col-md-6">
                     <div class="form-floating">
-                      <input type="time" class="form-control" id="appointmentTime" placeholder="Appointment Time" />
+                      <input type="time" class="form-control" id="appointmentTime" name="appointmentTime"
+                        placeholder="Appointment Time" required />
                       <label for="appointmentTime">Appointment Time</label>
                     </div>
                   </div>
                   <div class="col-12">
                     <div class="form-floating">
-                      <textarea class="form-control" placeholder="Leave a message here" id="message"
-                        style="height: 150px"></textarea>
+                      <textarea class="form-control" placeholder="Leave a message here" id="message" name="message"
+                        style="height: 150px" required></textarea>
                       <label for="message">Message</label>
                     </div>
                   </div>
-
-
 
                   <div class="col-12">
                     <button class="btn btn-primary w-100 py-3" type="submit">
@@ -242,6 +242,7 @@
                   </div>
                 </div>
               </form>
+
 
             </div>
           </div>
