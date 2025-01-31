@@ -555,3 +555,70 @@ h6,
   transform: translateY(-10px);
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
+
+  /* Custom Styling for radio buttons */
+  .option-label input[type="radio"] {
+    display: none;
+}
+.option-label {
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 18px;
+    display: inline-block;
+}
+.option-label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+.option-label input[type="radio"]:checked + .option-label::before {
+    background-color: #007bff;
+    border-color: #007bff;
+    box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.4);
+}
+.option-label input[type="radio"]:checked + .option-label::after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+.next-button {
+    margin-top: 20px;
+}
+.result-container {
+    margin-top: 30px;
+}
+/* Card and Animation */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.start-button {
+    margin-top: 15px;
+    font-size: 18px;
+    padding: 10px 25px;
+}
+.test-container, .result-container {
+    animation: fadeIn 1s ease-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

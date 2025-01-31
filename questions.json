@@ -1,0 +1,84 @@
+{
+  "questions": [
+    {
+      "question": "The child is able to identify some of the letters of the alphabet",
+      "options": [
+        { "label": "Yes", "value": "1" },
+        { "label": "Not Sure", "value": "0.5" },
+        { "label": "No", "value": "0" }
+      ]
+    },
+    {
+      "question": "The child is able to answer (name the object) when a question is asked like “What is this?” by showing a common object like crayon, pencil, book, mobile etc.",
+      "options": [
+        { "label": "Yes", "value": "1" },
+        { "label": "Not Sure", "value": "0.5" },
+        { "label": "No", "value": "0" }
+      ]
+    },
+    {
+      "question": "The child is able to recite numbers up to 10",
+      "options": [
+        { "label": "Yes", "value": "1" },
+        { "label": "Not Sure", "value": "0.5" },
+        { "label": "No", "value": "0" }
+      ]
+    },
+    {
+      "question": "The child attempts counting various objects at school or at home",
+      "options": [
+        { "label": "Yes", "value": "1" },
+        { "label": "Not Sure", "value": "0.5" },
+        { "label": "No", "value": "0" }
+      ]
+    },
+    {
+      "question": "The child is using words (like good morning) to wish elders and peers",
+      "options": [
+        { "label": "Yes", "value": "1" },
+        { "label": "Not Sure", "value": "0.5" },
+        { "label": "No", "value": "0" }
+      ]
+    },
+    {
+      "question": "The child responds to a pleasantry wish (like good morning)",
+      "options": [
+        { "label": "Yes", "value": "1" },
+        { "label": "Not Sure", "value": "0.5" },
+        { "label": "No", "value": "0" }
+      ]
+    },
+    {
+      "question": "The child is able to recognize and name the animals - Donkey, Rabbit, Bear",
+      "options": [
+        { "label": "Yes", "value": "1" },
+        { "label": "Not Sure", "value": "0.5" },
+        { "label": "No", "value": "0" }
+      ]
+    },
+    {
+      "question": "The child is able to identify and name transport vehicles - Train, Metro, Air balloon, Rocket",
+      "options": [
+        { "label": "Yes", "value": "1" },
+        { "label": "Not Sure", "value": "0.5" },
+        { "label": "No", "value": "0" }
+      ]
+    },
+    {
+      "question": "The child is able to trace and colour a square within the boundary",
+      "options": [
+        { "label": "Yes", "value": "1" },
+        { "label": "Not Sure", "value": "0.5" },
+        { "label": "No", "value": "0" }
+      ]
+    },
+    {
+      "question": "The child is able to trace and colour a Circle within the boundary",
+      "options": [
+        { "label": "Yes", "value": "1" },
+        { "label": "Not Sure", "value": "0.5" },
+        { "label": "No", "value": "0" }
+      ]
+    }
+  ]
+}
